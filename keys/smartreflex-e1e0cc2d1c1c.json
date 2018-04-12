@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smartreflex-2018",
+  "private_key_id": "e1e0cc2d1c1cd7b4875066e3c8be898411a9ac0b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCl5j7cM3BpPcET\nVB5YNHXaKUb+yoG1KDBqTwo5GMF/u+/Ww3m4CBtPvXrZOGeYgVL84MKKn4zZkXiR\nQVA4Zcg7Ekx3CKBGdW2+qE96rdINJpDwjXfXLgE53wnC9aEOR1a40x3btqD3ELEQ\n8rvLhKTvYSuV1dnnKMdMRNfjg8TI58Mh/AVCBm3zRppPYVwJCFK2japOi4oAcjQ1\nzVD5b9fGsvHt1F7tXcNN3FwBmDB9L6CEqXFyO6Kt3WtjP+VeLcjjNvzjJrsE8pua\nXI38mTMicGvcc8XWU9HBlTSjlfrtJWYXrarWEd0NygxCpZYuJpjmPQoiXFKH1Nj2\nGKOOw4ktAgMBAAECggEAA+aOes69nJPZoTLP0qLlIUYc+urXzHxPhLUrPqo6catO\nP9GK+czWMfR42d7UIyDpsRo3W/TVZg/GctZDMX6r8j7QMnCu+zxRyL/o70ljKddk\nZNHtGLYAGS3v0YT4W1jjc2c8Iy+l+2xWi9kqzJjntQ/zuBgPmzpGH7pzDJ1+a0gF\nOZ56HXjdirW/mFv9aaV+QQY6FBC9tbtDcG1U0BQLbWhvud7qI6Yv8hLLQwKDhpob\nsP6cxJvPd+7HaWHRTEoEyxr3aSGFYIbyHuqhxbMBsHuST/WfaUJ1OnQAsd1JVAD3\nvhKy0O91oXqQ9PqKYu2+q8vBm2ywdhMOeGiolrzOxwKBgQDYp/BqzepvDEoX+okU\n+y3HPAJsMLYzexx7ZQ3acmZTAG52zKjTfMM37YW19aR1MmwIxqiVbHi+PRkWLzkr\nRax4Qn5zrgMNWcayldLjuBoZ+Xxftztv0QmDn9R5mGgsdbeW6fp9tMJCZNkBP7Jb\nDiJVCifebePmMW59mD4yZBSAiwKBgQDEBrI/1Z5C2zV5/XWdFxtFiEDc4MZfh66L\nISE2EJr8qqUd9XxrGVxkwY4ZZQ4kNGm7Azcb+0xbjaZ0Pniu8mP+puhltGDQu2p4\nJpZG2KCgZaIGzqgzYlT5Im3JiUegGXI0SFMmrarRnJCcga35cJI2WJS63jzdlRBK\naOnG4JZcJwKBgGrQyZhuszFStskBrUoZ2GUM8gjTL1FMViuEFANqOYachNmvZ2D1\ndu4A/dZLKGzbkiX1g7I/y3vHdbHZUG9EJ5cW+W8hEMIpS+xKL7Iz1zKNLUOne/dR\n8UXirAfTGzEoTH5sFyKY1tmTDOYvuEhqPIT+v89LEHwyTM5BHBEOBImnAoGAMg4/\nsBs9WXcedbMqOF3xIdVEMuLW5QgBoxdnoqWk3gY5Oag5CCQmurfOMF/kt4wGv7F3\nfhayjeJi8eYN7SaKMDmwuF/SJRrmeh3oW9jvU2YAdNqKiux+JEwNWtxKRPCagA1D\n5mmMaBAhwUVABqUfQO9nszwSsMZirY2SvK0W2BsCgYEAsNw2I6Vhs3virUUYteYK\nY4661bkje2DMXpKTP2JN0n4incXnufl5uBaeGjVs+uhyKpY+92vADvHo9lBuuISy\ntKWoRdCsI7h0hriSPVdvjkzoJI46/oH0VVzQauiRrsnoQa8gB9xo0G6+lDY24V8Y\nXKf0UbPmaD2gMMwNLvELOL4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "smartreflex-2018@appspot.gserviceaccount.com",
+  "client_id": "109637645066265505815",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smartreflex-2018%40appspot.gserviceaccount.com"
+}

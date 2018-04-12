@@ -1,0 +1,81 @@
+{
+    "profile": {
+        "userid": "piyada@smartreflex.info",
+        "firstname": "Piyada",
+        "lastname": "Jaidee",
+        "gender": "F",
+        "DOB": "1944-12-19T17:13:10.247Z"
+    },
+    "health": {
+        "general": {
+            "height": 159,
+            "weight": 50,
+            "waist": 35
+        },
+        "clinical": [{
+            "timestamp": "2018-04-09T17:13:10.247Z",
+            "HR": 80,
+            "BPS": 140,
+            "BPD": 60,
+            "FBS": 120
+        }],
+        "today": {
+            "steps": 1340,
+            "distance": 1596,
+            "HR": 80,
+            "calories": 502,
+            "fitscores": {
+                "heart": 1,
+                "metabolism": 2,
+                "motion": 1
+            },
+            "recommedation": ["มีความเสี่ยงไม่สบายสูง", "ควรพบแพทย์เพื่อตรวจร่างกาย"]
+        },
+        "summary": {
+            "fitscores": {
+                "heart": {
+                    "day": 1,
+                    "week": 2,
+                    "month": 3,
+                    "year": 1
+                },
+                "metabolism": {
+                    "day": 1,
+                    "week": 1,
+                    "month": 2,
+                    "year": 3
+                },
+                "motion": {
+                    "day": 1,
+                    "week": 2,
+                    "month": 2,
+                    "year": 2
+                }
+            }
+        },
+        "history": {
+            "fitscores": {
+                "heart": {
+                    "day": [1, 2, 4, 2, 5, 4, 4, 3, 4, 5],
+                    "week": [2, 2, 4, 4, 2, 4, 1, 3, 4, 5],
+                    "month": [4, 2, 4, 4, 5, 1, 2, 3, 4, 5],
+                    "year": [3, 2, 4, 4, 5, 4, 4, 3, 4, 2]
+                },
+                "metabolism": {
+                    "day": [2, 2, 1, 4, 1, 4, 4, 3, 4, 5],
+                    "week": [3, 2, 4, 2, 1, 4, 4, 3, 4, 5],
+                    "month": [2, 2, 4, 1, 1, 4, 4, 3, 4, 5],
+                    "year": [3, 2, 4, 4, 1, 4, 1, 3, 2, 5]
+                },
+                "motion": {
+                    "day": [3, 2, 4, 1, 1, 4, 4, 3, 4, 1],
+                    "week": [2, 2, 4, 1, 1, 4, 4, 3, 4, 2],
+                    "month": [3, 2, 1, 1, 2, 4, 4, 3, 4, 1],
+                    "year": [2, 2, 2, 1, 1, 4, 4, 3, 4, 1]
+                }
+            }
+        }
+    },
+    "devices" : ["charge2"]
+
+}

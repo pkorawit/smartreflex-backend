@@ -1,0 +1,23 @@
+{
+  "name": "smartreflex-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkorawit/smartreflex-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkorawit/smartreflex-backend/issues"
+  },
+  "homepage": "https://github.com/pkorawit/smartreflex-backend#readme",
+  "dependencies": {
+    "firebase-admin": "^5.12.0"
+  }
+}
