@@ -5,14 +5,10 @@ $(function(){
         console.log(user);
     });    
 
-    SmartReflex.getAllUser().then(function(users) {
-        console.log(users);
-    });   
-
-    SmartReflex.getDevice("h10").then(function(message, device) {
+    SmartReflex.getScore("piyada@smartreflex.info").then(function(message, user) {
         console.log(message);
-        console.log(device);
-    });  
+        console.log(user);
+    });    
     
     SmartReflex.getAllDevice().then(function(devices) {
         console.log(devices);

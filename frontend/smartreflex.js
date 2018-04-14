@@ -14,41 +14,46 @@ var db = firebase.firestore();
 // SmartReflex back-end data retrieval
 var SmartReflex = {
 
-    //Get all user collections
-    getAllUser: function(){
-        var deferred = new $.Deferred();
-        var devices = [];
-        db.collection("users").get().then((querySnapshot) => {
-            querySnapshot.forEach((doc) => {
-                devices.push(doc.data());
-            });
-            deferred.resolve(devices);
-        });
-    
-        return deferred.promise();
-    },
-
-    //Get a user by id
-    getUser: function(userid){
+    //Get a user by user id
+    getUser: function (userid) {
         var deferred = new $.Deferred();
         var docRef = db.collection("users").doc(userid);
-    
-        docRef.get().then(function(doc) {
+
+        docRef.get().then(function (doc) {
             if (doc.exists) {
                 deferred.resolve("Done", doc.data());
             } else {
                 deferred.resolve("No such a user: " + userid, null);
             }
-        }).catch(function(error) {
+        }).catch(function (error) {
             deferred.resolve("Error getting user: " + userid, error);
             return null;
         });
-    
+
+        return deferred.promise();
+    },
+
+    //Get fit scores by user id
+    getScore: function (userid) {
+        var deferred = new $.Deferred();
+        var docRef = db.collection("fitscores").doc(userid);
+
+        docRef.get().then(function (doc) {
+            if (doc.exists) {
+                deferred.resolve("Done", doc.data());
+            } else {
+                deferred.resolve("No such a user: " + userid, null);
+            }
+        }).catch(function (error) {
+            deferred.resolve("Error getting user: " + userid, error);
+            return null;
+        });
+
         return deferred.promise();
     },
 
     //Get all devices collection
-    getAllDevice: function(){
+    getAllDevice: function () {
         var deferred = new $.Deferred();
         var devices = [];
         db.collection("devices").get().then((querySnapshot) => {
@@ -57,26 +62,7 @@ var SmartReflex = {
             });
             deferred.resolve(devices);
         });
-    
-        return deferred.promise();
-    },
 
-    //Get a device by id
-    getDevice: function(deviceid){
-        var deferred = new $.Deferred();
-        var docRef = db.collection("devices").doc(deviceid);
-    
-        docRef.get().then(function(doc) {
-            if (doc.exists) {
-                deferred.resolve("Done", doc.data());
-            } else {
-                deferred.resolve("No such a device: " + deviceid, null);
-            }
-        }).catch(function(error) {
-            deferred.resolve("Error getting devices: " + deviceid, error);
-            return null;
-        });
-    
         return deferred.promise();
-    },
+    }
 };

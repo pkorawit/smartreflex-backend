@@ -1,0 +1,82 @@
+[{
+        "profile": {
+            "userid": "waree@smartreflex.info",
+            "firstname": "Waree",
+            "lastname": "Jaidee",
+            "gender": "F",
+            "DOB": "1970-04-09T17:13:10.247Z"
+        },
+        "health": {
+            "general": {
+                "height": 168,
+                "weight": 47,
+                "waist": 25
+            },
+            "clinical": [{
+                "timestamp": "2018-04-09T17:13:10.247Z",
+                "HR": 70,
+                "BPS": 120,
+                "BPD": 60,
+                "FBS": 89
+            }]
+        },
+        "connections": [{
+            "userid": "somjai@smartreflex.info",
+            "relation": "Dad"
+        }, {
+            "userid": "piyada@smartreflex.info",
+            "relation": "Mom"
+        }],
+        "devices": ["charge2", "aria2", "h10"]
+
+    },
+    {
+        "profile": {
+            "userid": "somjai@smartreflex.info",
+            "firstname": "Somjai",
+            "lastname": "Jaidee",
+            "gender": "M",
+            "DOB": "1940-05-09T17:13:10.247Z"
+        },
+        "health": {
+            "general": {
+                "height": 175,
+                "weight": 80,
+                "waist": 35
+            },
+            "clinical": [{
+                "timestamp": "2018-04-09T17:13:10.247Z",
+                "HR": 85,
+                "BPS": 120,
+                "BPD": 90,
+                "FBS": 89
+            }]
+        },
+        "devices": ["charge2", "aria2", "h10"]
+
+    },
+    {
+        "profile": {
+            "userid": "piyada@smartreflex.info",
+            "firstname": "Piyada",
+            "lastname": "Jaidee",
+            "gender": "F",
+            "DOB": "1944-12-19T17:13:10.247Z"
+        },
+        "health": {
+            "general": {
+                "height": 159,
+                "weight": 50,
+                "waist": 35
+            },
+            "clinical": [{
+                "timestamp": "2018-04-09T17:13:10.247Z",
+                "HR": 80,
+                "BPS": 140,
+                "BPD": 60,
+                "FBS": 120
+            }]
+        },
+        "devices": ["charge2"]
+    }
+]

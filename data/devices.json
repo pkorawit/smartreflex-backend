@@ -1,0 +1,19 @@
+[{
+        "deviceid" : "charge2",
+        "manufacture": "Fitbit",
+        "model": "Charge 2",
+        "description": ["Wearable Devices for finess tracking including heartrate, steps, calories, sleep "]
+    },
+    {
+        "deviceid" : "h10",
+        "manufacture": "Polar",
+        "model": "H10",
+        "description": ["Wearable Devices for monitoring your heart rate with maximum precision"]
+    },
+    {
+        "deviceid" : "aria2",
+        "manufacture" : "Fitbit",
+        "model" : "Aria 2",
+        "description" : ["Smart WiFi weight scale"]
+    }
+]
